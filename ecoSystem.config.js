@@ -30,9 +30,9 @@ module.exports = {
             user: 'xmer',
             host: 'xmer.pw',
             path: '/websites/portfolio/production',
-            repo: '/home/git/podcast.git',
+            repo: 'github.com:Xmerr/Portfolio',
             ref: 'origin/master',
-            'post-deploy': 'yarn install && yarn build && pm2 startOrRestart ecoSystem.config.js --env production',
+            'post-deploy': 'yarn install && pm2 startOrRestart ecoSystem.config.js --env production',
             env: {
                 NODE_ENV: 'production'
             }
