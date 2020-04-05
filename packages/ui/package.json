@@ -17,7 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "serve": "serve -s ./build",
-    "production": "yarn build && yarn serve",
+    "production": "yarn run build && yarn run serve",
     "lint": "eslint ."
   },
   "eslintConfig": {
