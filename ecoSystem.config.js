@@ -30,7 +30,7 @@ module.exports = {
             user: 'xmer',
             host: 'xmer.pw',
             path: '/websites/portfolio/production',
-            repo: 'github.com:Xmerr/Portfolio',
+            repo: 'git@github.com:Xmerr/Portfolio',
             ref: 'origin/master',
             'post-deploy': 'yarn install && pm2 startOrRestart ecoSystem.config.js --env production',
             env: {
