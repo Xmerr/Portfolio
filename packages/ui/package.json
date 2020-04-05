@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "serve": "serve -s ./build",
+    "serve": "serve ./build -l",
     "production": "yarn run build && yarn run serve",
     "lint": "eslint ."
   },
