@@ -12,6 +12,7 @@ function App() {
     return (
         <Provider store={store}>
             <div className={styles.app}>
+                <div className={styles.background} />
                 <Router />
             </div>
         </Provider>

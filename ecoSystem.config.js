@@ -16,7 +16,7 @@ module.exports = {
             script: 'yarn',
             watch: false,
             exec_mode: 'fork',
-            interpreter: '/bin/bash',
+            // interpreter: '/bin/bash',
             env: {
                 PORT: port++
             },
